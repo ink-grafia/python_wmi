@@ -12,7 +12,7 @@ class Connection:
 
 connections = []
 connections.append(
-    Connection("5.79.106.192","wmiagent","KqZckCHD9T",['Security', 'System', 'Application'])
+    Connection("ip","login","password",['Security', 'System', 'Application'])
 )
 
 def convert_time(wmi_date):
